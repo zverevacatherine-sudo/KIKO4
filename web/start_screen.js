@@ -128,7 +128,7 @@ class RulesScreen {
         this.index = 0;
         this.rule_images = [];
         this.imagesLoaded = false;
-        this.circle_r = 30;
+        this.circle_r = 20;
         this.circle_center = { x: CONFIG.WIDTH - 90, y: CONFIG.HEIGHT - 90 };
         
         const rulePaths = [];
