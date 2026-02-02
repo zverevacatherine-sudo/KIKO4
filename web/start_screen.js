@@ -128,7 +128,7 @@ class RulesScreen {
         this.index = 0;
         this.rule_images = [];
         this.imagesLoaded = false;
-        this.circle_r = 20;
+        this.circle_r = 25;
         this.circle_center = { x: CONFIG.WIDTH - 90, y: CONFIG.HEIGHT - 90 };
         
         const rulePaths = [];
@@ -172,7 +172,7 @@ class RulesScreen {
 
         // Arrow
         this.ctx.fillStyle = "white";
-        this.ctx.font = "40px Gill Sans, Arial";
+        this.ctx.font = "30px Gill Sans, Arial";
         this.ctx.textAlign = "center";
         this.ctx.fillText(">", this.circle_center.x, this.circle_center.y + 12);
     }
